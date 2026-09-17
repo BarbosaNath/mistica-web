@@ -28,6 +28,8 @@ const colors: Colors = {
     backgroundContainerNegative: '',
     backgroundContainerBrandOverBrand: '',
     backgroundContainerAlternative: '',
+    backgroundContainerAlternativeOverAlternative: '',
+    backgroundContainerAlternativeOverBrand: '',
     backgroundOverlay: '',
     backgroundSkeleton: '',
     backgroundSkeletonInverse: '',
@@ -373,6 +375,7 @@ const textPresets: ToThemeTokens<TextPresetsConfig> = {
         size: '',
         weight: '',
     },
+    headerPretitle: {lineHeight: '', size: '', weight: ''},
 };
 
 const spacing: ToThemeTokens<SpacingConfig> = {
