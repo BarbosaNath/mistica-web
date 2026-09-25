@@ -60,12 +60,14 @@ export type TextPresetsConfig = {
     cardDescriptionSnap: TextSizeTokenConfig;
     cardPretitleDefault: TextSizeTokenConfig;
     cardPretitleSnap: TextSizeTokenConfig;
+    headerPretitle: TextTokenConfig;
     cardSubtitleDefault: TextSizeTokenConfig;
     cardSubtitleSnap: TextSizeTokenConfig;
     cardTitleDefault: TextSizeTokenConfig;
     cardTitleSnap: TextSizeTokenConfig;
     drawerTitle: TextTokenConfig;
     chipLabel: TextTokenConfig;
+    chipLabelSmall: TextTokenConfig;
     link: TextWeightTokenConfig<'regular' | 'medium'>;
     loadingScreenTitle: TextSizeTokenConfig;
     title1: TextTokenConfig<'regular' | 'medium'>;
