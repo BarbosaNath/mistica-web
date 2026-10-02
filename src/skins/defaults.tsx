@@ -24,6 +24,11 @@ export const defaultTextPresetsConfig: TextPresetsConfig = {
     cardDescriptionSnap: {lineHeight: {desktop: 24, mobile: 20}, size: {desktop: 16, mobile: 14}},
     cardPretitleDefault: {lineHeight: {desktop: 24, mobile: 20}, size: {desktop: 16, mobile: 14}},
     cardPretitleSnap: {lineHeight: {desktop: 24, mobile: 20}, size: {desktop: 16, mobile: 14}},
+    headerPretitle: {
+        lineHeight: {desktop: 24, mobile: 22},
+        size: {desktop: 18, mobile: 16},
+        weight: 'regular',
+    },
     cardSubtitleDefault: {lineHeight: {desktop: 24, mobile: 20}, size: {desktop: 16, mobile: 14}},
     cardSubtitleSnap: {lineHeight: {desktop: 24, mobile: 20}, size: {desktop: 16, mobile: 14}},
     cardTitleDefault: {lineHeight: {desktop: 28, mobile: 24}, size: {desktop: 20, mobile: 18}},
@@ -51,7 +56,12 @@ export const defaultTextPresetsConfig: TextPresetsConfig = {
     tabsLabel: {weight: 'medium', size: {mobile: 16, desktop: 18}, lineHeight: {mobile: 24, desktop: 24}},
     chipLabel: {
         lineHeight: {desktop: 24, mobile: 20},
-        size: {desktop: 16, mobile: 14},
+        size: {desktop: 16, mobile: 16},
+        weight: 'medium',
+    },
+    chipLabelSmall: {
+        lineHeight: {desktop: 24, mobile: 20},
+        size: {desktop: 14, mobile: 14},
         weight: 'medium',
     },
     inputHelperText: {lineHeight: {desktop: 20, mobile: 16}, size: {desktop: 14, mobile: 12}},
